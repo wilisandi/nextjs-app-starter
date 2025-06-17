@@ -1,0 +1,17 @@
+{
+    "jsc": {
+      "target": "es2021",       // JavaScript version to output
+      "parser": {
+        "syntax": "typescript", // Enable TypeScript parsing
+        "tsx": true             // Enable JSX in TypeScript files
+      },
+      "transform": {
+        "react": {
+          "runtime": "automatic", // Use automatic JSX runtime
+          "refresh": true          // Enable React Fast Refresh
+        }
+      }
+    },
+    "minify": true                 // Ensure minification is enabled
+  }
+  
